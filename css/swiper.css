@@ -791,3 +791,13 @@ button.swiper-pagination-bullet {
     backface-visibility: hidden;
     overflow: hidden
 }
+
+@media screen and (max-width:414px) {
+    .swiper-button-next, .swiper-button-prev {
+       
+        top: var(--swiper-navigation-top-offset, 45%);
+        
+    }
+    
+}
+
